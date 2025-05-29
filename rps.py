@@ -36,16 +36,16 @@ def play_game():
     print(f"Computer Score: {computer_score}")
 
     if user_score > computer_score:
-        print("User won the game! 🎉")
+        print("User won the game! ")
     elif computer_score > user_score:
-        print("Computer won the game! 💻")
+        print("Computer won the game! ")
     else:
-        print("It's a tie! 🤝")
+        print("It's a tie! ")
 
 # Game Loop
 while True:
     play_game()
     again = input("\nDo you want to play again? (yes/no): ").lower()
     if again != "yes":
-        print("Thanks for playing! 👋")
+        print("Thanks for playing! ")
         break
